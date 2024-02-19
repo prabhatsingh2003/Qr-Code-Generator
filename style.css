@@ -1,0 +1,48 @@
+body{
+       margin: 0%;
+       padding: 0%;
+       background-color: chartreuse;
+       box-sizing: border-box;
+       text-align: center;
+}
+
+body{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+}
+
+.container{
+       border: 2px solid black;
+       border-radius: 10px;
+       padding: 10px;
+       width: 600px;
+       height: 500px;
+       box-shadow: 0 0 10px 0 rgb(5, 5, 5);
+
+       background-color: antiquewhite;
+}
+
+h1{
+       text-align: center;
+       margin-bottom: 5%;
+}
+
+#text-input{
+       text-align: center;
+       display: block;
+       margin-bottom: 5%;
+       padding:2%;
+       width: 90%;
+       
+       font-family: 'Courier New', Courier, monospace;
+
+}
+
+#qr-button{
+       text-align: center;
+       background-color: green;
+       color: white;
+}
+
